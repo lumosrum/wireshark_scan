@@ -70,9 +70,4 @@ Analyze captured packets to identify at least **3 protocols**, such as:
 - Learned how to use Wireshark for packet analysis.  
 - Understood how multiple protocols operate together in network communication.  
 - Gained insight into filtering and identifying protocol-based data.
-
 ---
-
-## 🧑‍💻 Author
-**Poli Venkata Anandha Komal**  
-Cyber Security Intern | Network Security Enthusiast  
