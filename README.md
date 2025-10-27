@@ -48,7 +48,7 @@ Analyze captured packets to identify at least **3 protocols**, such as:
 
 ### 7. Export the Capture
 - Go to **File → Export Specified Packets → PCAP File Format**  
-- Save it as: `network_capture.pcap`
+- Save it as: `wireshark_scan.pcap`
 
 ### 8. Summarize Findings
 | Protocol | Function | Example Packet |
