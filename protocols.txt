@@ -1,0 +1,76 @@
+
+   7932 UDP
+   2122 QUIC
+   1477 TCP
+   1222 TLSv1.3
+    106 DNS
+     27 TLSv1.2
+     26 ICMP
+     16 ARP
+      8 HTTP
+      2 UDP, HiPerConTracer
+      2 MDNS
+      2 AJP13
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+eth                                      frames:12942 bytes:13930195
+  ip                                     frames:12926 bytes:13929271
+    udp                                  frames:10164 bytes:9362805
+      quic                               frames:2122 bytes:1102558
+        quic                             frames:53 bytes:28716
+          quic                           frames:2 bytes:2534
+      data                               frames:7932 bytes:8245873
+      dns                                frames:106 bytes:11610
+      hipercontracer                     frames:2 bytes:2408
+      mdns                               frames:2 bytes:356
+    tcp                                  frames:2736 bytes:4562781
+      tls                                frames:1249 bytes:4088277
+        tcp.segments                     frames:346 bytes:2207774
+          tls                            frames:245 bytes:2008492
+      http                               frames:8 bytes:7781
+        data                             frames:4 bytes:6181
+          tcp.segments                   frames:4 bytes:6181
+      ajp13                              frames:2 bytes:352
+        tcp.segments                     frames:2 bytes:352
+    icmp                                 frames:26 bytes:3685
+      dns                                frames:16 bytes:2705
+  arp                                    frames:16 bytes:924
+===================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
