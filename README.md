@@ -60,12 +60,6 @@ Analyze captured packets to identify at least **3 protocols**, such as:
 
 ---
 
-## 📁 Output Files
-- `network_capture.pcap` – Packet capture file  
-- `Wireshark_Summary_Report.docx` – Summary report of captured traffic  
-
----
-
 ## 🧠 Learning Outcome
 - Learned how to use Wireshark for packet analysis.  
 - Understood how multiple protocols operate together in network communication.  
